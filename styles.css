@@ -1,0 +1,23 @@
+h1 {
+    color: rgb(32, 134, 51);
+}
+
+* {
+    background-color: rgb(20, 67, 255);
+}
+
+* {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.header {
+    color: rgb(255, 255, 0);
+}
+
+p, ul, ol, a {
+    color: rgb(255, 253, 136);
+}
+
+img {
+    border-radius: 20%;
+}
