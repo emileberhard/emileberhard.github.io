@@ -31,7 +31,12 @@ ul, ol {
     text-align: left;
 }
 
-img {
+.flex_container.flag {
+    border-style: none;
+    background-color: blue;
+}
+
+.profilepic {
     border-radius: 20%;
     margin-top: 10px;
 }
