@@ -1,3 +1,3 @@
-# git_test
+# emileberhard
 OdinProject - Git Basics
 Hello Odin!
