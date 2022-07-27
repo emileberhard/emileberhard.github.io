@@ -1,3 +1,2 @@
 # emileberhard
-OdinProject - Git Basics
-Hello Odin!
+Hey! Welcome to my profile.
