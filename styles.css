@@ -18,6 +18,15 @@ p, ul, ol, a {
     color: rgb(255, 253, 136);
 }
 
+.list {
+    text-align: center;
+}
+
+ul, ol {
+    text-align: left;
+    display: inline-block;
+}
+
 img {
     border-radius: 20%;
 }
