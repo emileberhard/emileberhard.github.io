@@ -28,15 +28,33 @@
                 border: 4px solid rgb(255, 242, 0);
                 display: flex;
                 flex: 1;
-                height: 450px;
+                height:fit-content;
                 justify-content: center;
                 margin-top: 15px;
                 margin-bottom: 30px;
+            }
+            .flex_container_vertical {
+                background: rgb(0, 89, 223);
+                border: 4px solid rgb(255, 242, 0);
+                display: flex;
+                flex: 1;
+                height:fit-content;
+                justify-content: center;
+                margin-top: 15px;
+                margin-bottom: 30px;
+                flex-direction: column;
             }
 
             .item {
                 margin: 20px;
                 justify-content: center;
+            }
+
+            .topitem {
+                justify-content: flex-start;
+                position: absolute;
+                flex: 1 0 100%;
+                text-align: center;
             }
 
             div {
@@ -47,14 +65,18 @@
     <body>
         <p>Hey! Welcome to the second page.</p>
         <h3>These are my friends William and Gustav</h3>
-        <div class="flex_container">
-            <div class="item">
-                <img src="../media/IMG_2133.jpg" alt="" width="300px" height="auto">
-            </div>
-            <div class="item">
-                <img src="../media/IMG_2134.jpg" alt="" width="300px" height="auto">
+        <div class="flex_container_vertical">
+            <p>Press on them to learn more!</p>
+            <div class="flex_container" style="border: none; margin: 0px;" >
+                <div class="item">
+                    <img src="../media/IMG_2133.jpg" alt="" width="300px" height="auto">
+                </div>
+                <div class="item">
+                    <img src="../media/IMG_2134.jpg" alt="" width="300px" height="auto">
+                </div>
             </div>
         </div>
+        
         <h4><a href="../index.html">Click here to go back to home page</a></h4>
     </body>
 </html>
